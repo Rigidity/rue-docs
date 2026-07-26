@@ -41,7 +41,7 @@ Prism.languages.rue = {
     alias: "keyword",
   },
   module: {
-    pattern: /\b(?:import|mod|super)\b/,
+    pattern: /\b(?:import|from|mod|super)\b/,
     alias: "keyword",
   },
   modifier: { pattern: /\b(?:inline|export|extern|test)\b/, alias: "keyword" },
